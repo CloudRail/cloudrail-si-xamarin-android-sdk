@@ -212,8 +212,8 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
     try
     {
-       string email = Profile.Email;
-       string fullname = Profile.FullName;
+       string email = profile.Email;
+       string fullname = profile.FullName;
     }
     catch (Exception e)
     {
@@ -458,7 +458,7 @@ More interfaces are coming soon.
 
 If you don't know how to start or just want to have a look at how to use our SDK in a real use case, we created a few sample application which you can try out:
 
-* Sample using the CloudStorage interface: [File Viewer]()
+* Sample using the CloudStorage interface: [UnifiedCloudStorage](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/master/Examples/UnifiedCloudStorage)
 
 ## License Key
 
