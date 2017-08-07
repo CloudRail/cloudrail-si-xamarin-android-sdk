@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments>
+    <ManifestDocument>obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk/library_project_imports/AndroidManifest.xml</ManifestDocument>
+  </ManifestDocuments>
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk/library_project_imports/bin/classes.jar</Jar>
+  </Jars>
+</Paths>
