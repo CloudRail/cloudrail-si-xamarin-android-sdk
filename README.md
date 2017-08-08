@@ -75,7 +75,7 @@ Point of Interest | Google Places, Foursquare, Yelp
 [Full Documentation](https://cloudrail.com/integrations/interfaces/CloudStorage;platformId=XamarinAndroid)
 #### Code Example:
 
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -128,7 +128,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/BusinessCloudStorage;platformId=XamarinAndroid)
 #### Code Sample
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -186,7 +186,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Profile;platformId=Android)
 #### Code Example:
 
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -239,7 +239,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Social;platformId=XamarinAndroid)
 #### Code Example:
 
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -283,7 +283,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Payment;platformId=XamarinAndroid)
 #### Code Example
 
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -368,7 +368,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 #### Code Example
 
-````java
+````csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -409,7 +409,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 [Full Documentation](https://cloudrail.com/integrations/interfaces/PointsOfInterest;platformId=XamarinAndroid)
 #### Code Example
 
-```` java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
