@@ -18,6 +18,7 @@ using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
 using Com.Cloudrail.SI;
+using Android.Content.Res;
 
 namespace UnifiedCloudStorage
 {
@@ -328,6 +329,5 @@ namespace UnifiedCloudStorage
 
 			  })).Start();
         }
-
     }
 }

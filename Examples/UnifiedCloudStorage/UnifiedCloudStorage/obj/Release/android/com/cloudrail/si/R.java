@@ -2265,7 +2265,12 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f02004a;
         public static final int design_fab_background=0x7f02004b;
         public static final int design_snackbar_background=0x7f02004c;
-        public static final int notification_template_icon_bg=0x7f02004d;
+        public static final int ic_file_doc=0x7f02004d;
+        public static final int ic_file_folder=0x7f02004e;
+        public static final int ic_file_pdf=0x7f02004f;
+        public static final int ic_file_pic=0x7f020050;
+        public static final int ic_file_video=0x7f020051;
+        public static final int notification_template_icon_bg=0x7f020052;
     }
     public static final class id {
         public static final int action0=0x7f070072;
@@ -2334,6 +2339,7 @@ containing a value of this type.
         public static final int listMode=0x7f07000b;
         public static final int list_item=0x7f070041;
         public static final int media_actions=0x7f070075;
+        public static final int menu_preferences=0x7f070080;
         public static final int middle=0x7f07001d;
         public static final int mini=0x7f070037;
         public static final int multiply=0x7f070016;
@@ -2458,6 +2464,9 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f040030;
         public static final int support_simple_spinner_dropdown_item=0x7f040031;
         public static final int toolbar=0x7f040032;
+    }
+    public static final class menu {
+        public static final int top_menus=0x7f0d0000;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;
