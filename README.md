@@ -1,4 +1,4 @@
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CloudRail-brightgreen.svg?style=flat-square)](https://android-arsenal.com/details/1/3604)
+[Click for Xamarin.iOS Version](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk)
 
 <p align="center">
   <img width="200px" src="http://cloudrail.github.io/img/cloudrail_logo_github.png"/>
@@ -41,6 +41,7 @@ using Com.Cloudrail.SI;
 
 CloudRail.AppKey = "{Your_License_Key}";
 ```
+[Get a free license key here](https://cloudrail.com/signup)
 
 
 ## Current Interfaces
