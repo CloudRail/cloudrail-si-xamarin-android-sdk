@@ -55,6 +55,7 @@ Payment | PayPal, Stripe
 Email | Maljet, Sendgrid
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
+Video | YouTube, Twitch, Vimeo
 ---
 ### Cloud Storage Interface:
 
@@ -325,7 +326,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 #### Code Example
 
-````java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -429,6 +430,53 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
     try
     {
        IList<POI> res = poi.GetNearbyPOIs((Java.Lang.Double)49.4557091, (Java.Lang.Double)8.5279138, (Java.Lang.Long)1000, "restaurant", null);
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+
+})).Start();
+````
+---
+### Video Interface:
+
+* YouTube
+* Twitch
+* Vimeo
+
+#### Features
+
+* Search for videos
+* Upload videos
+* Get a list of videos for a channel
+* Get channel details
+* Get your own channel details
+
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=XamarinAndroid)
+#### Code Example
+
+```` csharp
+using Com.Cloudrail.SI;
+using Com.Cloudrail.SI.Interfaces;
+using Com.Cloudrail.SI.Exceptions;
+using Com.Cloudrail.SI.Services;
+using Com.Cloudrail.SI.Types;
+
+CloudRail.AppKey = "{Your_License_Key};
+
+
+// IVideo video = new Twitch(this, "[clientID]", "[clientSecret]");
+// IVideo video = new Vimeo(this, "[clientID]", "[clientSecret]");
+IVideo video = new YouTube(this, "[apiKey]");
+
+new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+{
+    try
+    {
+       IList<VideoMetaData> searchVideos = video.SearchVideos("Game of Thrones", 0, 1);  // Query, Offet, Limit
+        //VideoMetaData videoData = video.UploadVideo("Title","Description",stream,1024, "channelID", "video/mp4");   // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
+        
     }
     catch (Exception e)
     {
