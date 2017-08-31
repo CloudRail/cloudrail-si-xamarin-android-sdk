@@ -86,15 +86,15 @@ using Com.Cloudrail.SI.Types;
 
 CloudRail.AppKey = "{Your_License_Key};
 
-// ICloudStorage cs = new Box(context, "[clientIdentifier]", "[clientSecret]");
-// ICloudStorage cs = new OneDrive(context, "[clientIdentifier]", "[clientSecret]");
+// ICloudStorage cs = new Box(this, "[clientIdentifier]", "[clientSecret]");
+// ICloudStorage cs = new OneDrive(this, "[clientIdentifier]", "[clientSecret]");
 
 // Google Drive:
-// GoogleDrive drive = new GoogleDrive(context, "[clientIdentifier]", "", "[redirectUri]", "[state]");
+// GoogleDrive drive = new GoogleDrive(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
 // drive.UseAdvancedAuthentication();
 // ICloudStorage cs = drive;
 
-ICloudStorage cs = new Dropbox(context, "[clientIdentifier]", "[clientSecret]");
+ICloudStorage cs = new Dropbox(this, "[clientIdentifier]", "[clientSecret]");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
@@ -317,6 +317,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 * Mailjet
 * Sendgrid
+* Gmail
 
 #### Features
 
@@ -337,6 +338,7 @@ CloudRail.AppKey = "{Your_License_Key};
 
 
 // IEmail email = new MailJet(this, "[clientIdentifier]", "[clientSecret]");
+// IEmail email = new GMail(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
 IEmail email = new SendGrid(this, "API Key");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
@@ -468,7 +470,7 @@ CloudRail.AppKey = "{Your_License_Key};
 
 // IVideo video = new Twitch(this, "[clientID]", "[clientSecret]");
 // IVideo video = new Vimeo(this, "[clientID]", "[clientSecret]");
-IVideo video = new YouTube(this, "[apiKey]");
+IVideo video = new YouTube(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
