@@ -454,6 +454,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 * Get a list of videos for a channel
 * Get channel details
 * Get your own channel details
+* Get video details 
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=XamarinAndroid)
 #### Code Example
