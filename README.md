@@ -321,7 +321,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 #### Features
 
-* Send Email
+* Send Email (with Attachments)
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Email;platformId=XamarinAndroid)
 
@@ -348,7 +348,12 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
        IList<string> toAddresses = new List<string>();
        toAddresses.Add("foo@bar.com");
        toAddresses.Add("bar@foo.com");
-       email.SendEmail("info@cloudrail.com", "CloudRail", toAddresses, "Welcome", "Hello from CloudRail", null, null, null);
+       
+       Attachment imageFile = new Attachment(Stream, "image/jpg", "File.jpg"); //Stream, MimeType, File Name
+       IList<Attachment> attachments = new List<Attachment>();
+       attachments.Add(imageFile);
+       
+       email.SendEmail("info@cloudrail.com", "CloudRail", toAddresses, "Welcome", "Hello from CloudRail", null, null, null, attachments);
     }
     catch (Exception e)
     {
