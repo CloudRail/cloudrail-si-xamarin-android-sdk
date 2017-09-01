@@ -477,13 +477,14 @@ CloudRail.AppKey = "{Your_License_Key};
 // IVideo video = new Twitch(this, "[clientID]", "[clientSecret]");
 // IVideo video = new Vimeo(this, "[clientID]", "[clientSecret]");
 IVideo video = new YouTube(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
+video.UseAdvancedAuthentication(); //Used for youtube
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
     try
     {
        IList<VideoMetaData> searchVideos = video.SearchVideos("Game of Thrones", 0, 1);  // Query, Offet, Limit
-        //VideoMetaData videoData = video.UploadVideo("Title","Description",stream,1024, "channelID", "video/mp4");   // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
+        //VideoMetaData videoData = video.UploadVideo("Best Video","One of my best videos",stream,1024, "channelID", "video/mp4");   // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
         
     }
     catch (Exception e)
