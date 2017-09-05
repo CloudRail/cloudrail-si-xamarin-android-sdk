@@ -1,0 +1,8 @@
+syntax: glob
+_ReSharper.*/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userprefs
+*.suo
+.DS_Store

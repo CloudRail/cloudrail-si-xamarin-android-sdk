@@ -11,7 +11,7 @@ namespace UnifiedSocialProfile
     [Activity(Label = "UnifiedSocialProfile", MainLauncher = true)]
     public class MainActivity : ListActivity
     {
-        public string CLOUDRAIL_APP_KEY = "5947b1545f3a46262b370388";
+        public string CLOUDRAIL_APP_KEY = "[Your CloudRail Key]";
         string[] items;
 
         protected override void OnCreate(Bundle savedInstanceState)

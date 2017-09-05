@@ -40,32 +40,32 @@ namespace UnifiedSocialProfile
             servicePosition = Intent.GetIntExtra("Service", 0);
             switch (servicePosition) {
                 case 0:
-					service = new Facebook(this, "439557219752767", "7265db555fbf26606870451605e1ae37");
+					service = new Facebook(this, "[Facebook Client Identifier]", "[Facebook Client Secret]");
 					break;
 				case 1:
-					service = new GitHub(this, "ff2f6d88dd8a49366e30", "eeafe874a8b80599a09b5195022583fbda4ca2ad");
+					service = new GitHub(this, "[GitHub Client Identifier]", "[GitHub Client Secret]");
 					break;
 				case 2:
-					service = new GooglePlus(this, "141870010879-td4fdoobrsm6ecki2kvveki6kdauu4su.apps.googleusercontent.com", "", "com.cloudrail.unifiedsocialprofile:/oauth2redirect", "someState");
+					service = new GooglePlus(this, "[Google+ Client Identifier]", "", "com.cloudrail.unifiedsocialprofile:/oauth2redirect", "someState");
                     ((GooglePlus)service).UseAdvancedAuthentication();
 					break;
 				case 3:
-					service = new Heroku(this, "d81a8071-ab2b-4a8b-8385-a83d70ed6095", "ece9f5b1-c977-4d85-b6fa-c0403cdcbdff");
+					service = new Heroku(this, "[Heroku Client Identifier]", "[Heroku Client Secret]");
 					break;
 				case 4:
-					service = new Instagram(this, "d714c3c872cb443e975d874922e66fcc", "ead73573c11c4a9e831460f0ff3bf164");
+					service = new Instagram(this, "[Instagram Client Identifier]", "[Instagram Client Secret]");
 					break;
 				case 5:
 					service = new LinkedIn(this, "[LinkedIn Client Identifier]", "[LinkedIn Client Secret]");
 					break;
 				case 6:
-					service = new ProductHunt(this, "9e79858debc14d0aab52bcad4430cbea06645e6df43986d3fe65fa9e4a46db47", "c04c57684eaf498eda439ed077270b09ea3a34218b283c9a4a6fb8a6bc24e88f");
+					service = new ProductHunt(this, "[ProductHunt Client Identifier]", "[ProductHunt Client Secret]");
 					break;
 				case 7:
 					service = new Slack(this, "[Slack Client Identifier]", "[Slack Client Secret]");
 					break;
 				case 8:
-					service = new Twitter(this, "FW6M3WmjhyiT2AYsohDZHGDTw", "1Ts5gOmPzXUgeckMDPV0dSEuY51L77cJCYBfftQFu6kI9kv2dp");
+					service = new Twitter(this, "[Twitter Client Identifier]", "[Twitter Client Secret]");
 					break;
 				case 9:
 					service = new MicrosoftLive(this, "[Windows Live Client Identifier]", "[Windows Live Client Secret]");
