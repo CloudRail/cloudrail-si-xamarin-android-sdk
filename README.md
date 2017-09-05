@@ -55,6 +55,7 @@ Payment | PayPal, Stripe
 Email | Maljet, Sendgrid
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
+Video | YouTube, Twitch, Vimeo
 ---
 ### Cloud Storage Interface:
 
@@ -85,15 +86,15 @@ using Com.Cloudrail.SI.Types;
 
 CloudRail.AppKey = "{Your_License_Key};
 
-// ICloudStorage cs = new Box(context, "[clientIdentifier]", "[clientSecret]");
-// ICloudStorage cs = new OneDrive(context, "[clientIdentifier]", "[clientSecret]");
+// ICloudStorage cs = new Box(this, "[clientIdentifier]", "[clientSecret]");
+// ICloudStorage cs = new OneDrive(this, "[clientIdentifier]", "[clientSecret]");
 
 // Google Drive:
-// GoogleDrive drive = new GoogleDrive(context, "[clientIdentifier]", "", "[redirectUri]", "[state]");
+// GoogleDrive drive = new GoogleDrive(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
 // drive.UseAdvancedAuthentication();
 // ICloudStorage cs = drive;
 
-ICloudStorage cs = new Dropbox(context, "[clientIdentifier]", "[clientSecret]");
+ICloudStorage cs = new Dropbox(this, "[clientIdentifier]", "[clientSecret]");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
@@ -316,16 +317,17 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 * Mailjet
 * Sendgrid
+* Gmail
 
 #### Features
 
-* Send Email
+* Send Email (with Attachments)
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Email;platformId=XamarinAndroid)
 
 #### Code Example
 
-````java
+```` csharp
 using Com.Cloudrail.SI;
 using Com.Cloudrail.SI.Interfaces;
 using Com.Cloudrail.SI.Exceptions;
@@ -336,6 +338,7 @@ CloudRail.AppKey = "{Your_License_Key};
 
 
 // IEmail email = new MailJet(this, "[clientIdentifier]", "[clientSecret]");
+// IEmail email = new GMail(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
 IEmail email = new SendGrid(this, "API Key");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
@@ -345,7 +348,12 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
        IList<string> toAddresses = new List<string>();
        toAddresses.Add("foo@bar.com");
        toAddresses.Add("bar@foo.com");
-       email.SendEmail("info@cloudrail.com", "CloudRail", toAddresses, "Welcome", "Hello from CloudRail", null, null, null);
+       
+       Attachment imageFile = new Attachment(Stream, "image/jpg", "File.jpg"); //Stream, MimeType, File Name
+       IList<Attachment> attachments = new List<Attachment>();
+       attachments.Add(imageFile);
+       
+       email.SendEmail("info@cloudrail.com", "CloudRail", toAddresses, "Welcome", "Hello from CloudRail", null, null, null, attachments);
     }
     catch (Exception e)
     {
@@ -429,6 +437,55 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
     try
     {
        IList<POI> res = poi.GetNearbyPOIs((Java.Lang.Double)49.4557091, (Java.Lang.Double)8.5279138, (Java.Lang.Long)1000, "restaurant", null);
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+
+})).Start();
+````
+---
+### Video Interface:
+
+* YouTube
+* Twitch
+* Vimeo
+
+#### Features
+
+* Search for videos
+* Upload videos
+* Get a list of videos for a channel
+* Get channel details
+* Get your own channel details
+* Get video details 
+
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=XamarinAndroid)
+#### Code Example
+
+```` csharp
+using Com.Cloudrail.SI;
+using Com.Cloudrail.SI.Interfaces;
+using Com.Cloudrail.SI.Exceptions;
+using Com.Cloudrail.SI.Services;
+using Com.Cloudrail.SI.Types;
+
+CloudRail.AppKey = "{Your_License_Key};
+
+
+// IVideo video = new Twitch(this, "[clientID]", "[clientSecret]");
+// IVideo video = new Vimeo(this, "[clientID]", "[clientSecret]");
+IVideo video = new YouTube(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
+video.UseAdvancedAuthentication(); //Used for youtube
+
+new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+{
+    try
+    {
+       IList<VideoMetaData> searchVideos = video.SearchVideos("Game of Thrones", 0, 1);  // Query, Offet, Limit
+        //VideoMetaData videoData = video.UploadVideo("Best Video","One of my best videos",stream,1024, "channelID", "video/mp4");   // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
+        
     }
     catch (Exception e)
     {

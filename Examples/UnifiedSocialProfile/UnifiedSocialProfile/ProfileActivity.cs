@@ -40,7 +40,11 @@ namespace UnifiedSocialProfile
             servicePosition = Intent.GetIntExtra("Service", 0);
             switch (servicePosition) {
                 case 0:
+<<<<<<< HEAD
 					service = new Facebook(this, "[Facebook Client Identifier]", "[Facebook Client Secret]");
+=======
+					service = new Facebook(this, "119105335410913", "8e188803f557cf7a25485950b75c79ec");
+>>>>>>> 427b22f86ae34de839b9ebe10f8b1dd26f0b5e72
 					break;
 				case 1:
 					service = new GitHub(this, "[GitHub Client Identifier]", "[GitHub Client Secret]");

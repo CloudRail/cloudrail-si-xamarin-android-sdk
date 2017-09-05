@@ -52,7 +52,7 @@
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.20.0.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
     <Reference Include="cloudrail-si-xamarin-android-sdk">
-      <HintPath>..\..\..\cloudrail-si-xamarin-android-sdk\bin\Release\cloudrail-si-xamarin-android-sdk.dll</HintPath>
+      <HintPath>..\..\..\cloudrail-si-xamarin-android-sdk.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
