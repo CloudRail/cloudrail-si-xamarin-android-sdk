@@ -57,6 +57,7 @@ Email | Maljet, Sendgrid, Gmail
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
 Video | YouTube, Twitch, Vimeo
+Messaging | Facebook Messenger, Telegram, Line, Viber
 ---
 ### Cloud Storage Interface:
 
@@ -495,6 +496,56 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 })).Start();
 ````
+---
+### Messaging Interface:
+
+* FacebookMessenger
+* Telegram
+* Line
+* Viber
+
+#### Features
+
+* Send text messages
+* Send files, images, videos and audios
+* Parse a message received on your webhook
+* Download the content of an attachment sent to your webhook
+
+#### Code Example - Objective-C
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Messaging;platformId=XamarinAndroid)
+
+```csharp
+using Com.Cloudrail.SI;
+using Com.Cloudrail.SI.Interfaces;
+using Com.Cloudrail.SI.Exceptions;
+using Com.Cloudrail.SI.Services;
+using Com.Cloudrail.SI.Types;
+
+CloudRail.AppKey = "{Your_License_Key};
+
+IMessaging service;
+
+// service = new Viber(this, "[Bot Token]", "[Webhook URL]", "[Bot Name]");
+// service = new Telegram(this, "[Bot Token]", "[Webhook URL]");
+// service = new Line(this, "[Bot Token]");
+
+service = = new FacebookMessenger(this, "[Bot Token]");
+
+new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+{
+	try
+	{
+	    Message result = service.SendMessage("12123242","It's so easy to send message via CloudRail");
+	    Console.WriteLine(result);
+	}
+	catch (Exception e)
+	{
+	   Console.WriteLine(e.Message);
+	}
+
+})).Start();
+
+```
 ---
 
 More interfaces are coming soon.
