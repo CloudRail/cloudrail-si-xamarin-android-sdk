@@ -21,7 +21,7 @@ public class ListFolderActivity
 	}
 
 
-	public ListFolderActivity () throws java.lang.Throwable
+	public ListFolderActivity ()
 	{
 		super ();
 		if (getClass () == ListFolderActivity.class)

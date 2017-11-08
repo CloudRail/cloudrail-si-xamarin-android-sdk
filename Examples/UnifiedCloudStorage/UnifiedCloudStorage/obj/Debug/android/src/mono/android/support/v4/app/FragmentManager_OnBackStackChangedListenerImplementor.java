@@ -17,7 +17,7 @@ public class FragmentManager_OnBackStackChangedListenerImplementor
 	}
 
 
-	public FragmentManager_OnBackStackChangedListenerImplementor () throws java.lang.Throwable
+	public FragmentManager_OnBackStackChangedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == FragmentManager_OnBackStackChangedListenerImplementor.class)

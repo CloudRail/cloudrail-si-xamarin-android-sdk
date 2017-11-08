@@ -17,7 +17,7 @@ public class ActionMenuView_OnMenuItemClickListenerImplementor
 	}
 
 
-	public ActionMenuView_OnMenuItemClickListenerImplementor () throws java.lang.Throwable
+	public ActionMenuView_OnMenuItemClickListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ActionMenuView_OnMenuItemClickListenerImplementor.class)

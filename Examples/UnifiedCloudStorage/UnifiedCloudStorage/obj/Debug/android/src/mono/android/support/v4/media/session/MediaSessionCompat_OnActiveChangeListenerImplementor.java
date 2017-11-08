@@ -17,7 +17,7 @@ public class MediaSessionCompat_OnActiveChangeListenerImplementor
 	}
 
 
-	public MediaSessionCompat_OnActiveChangeListenerImplementor () throws java.lang.Throwable
+	public MediaSessionCompat_OnActiveChangeListenerImplementor ()
 	{
 		super ();
 		if (getClass () == MediaSessionCompat_OnActiveChangeListenerImplementor.class)

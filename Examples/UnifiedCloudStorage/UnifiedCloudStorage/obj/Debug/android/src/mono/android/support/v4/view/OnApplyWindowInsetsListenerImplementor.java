@@ -17,7 +17,7 @@ public class OnApplyWindowInsetsListenerImplementor
 	}
 
 
-	public OnApplyWindowInsetsListenerImplementor () throws java.lang.Throwable
+	public OnApplyWindowInsetsListenerImplementor ()
 	{
 		super ();
 		if (getClass () == OnApplyWindowInsetsListenerImplementor.class)

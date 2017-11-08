@@ -20,7 +20,7 @@ public class DrawerLayout_DrawerListenerImplementor
 	}
 
 
-	public DrawerLayout_DrawerListenerImplementor () throws java.lang.Throwable
+	public DrawerLayout_DrawerListenerImplementor ()
 	{
 		super ();
 		if (getClass () == DrawerLayout_DrawerListenerImplementor.class)

@@ -19,7 +19,7 @@ public class ActionBar_TabListenerImplementor
 	}
 
 
-	public ActionBar_TabListenerImplementor () throws java.lang.Throwable
+	public ActionBar_TabListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ActionBar_TabListenerImplementor.class)

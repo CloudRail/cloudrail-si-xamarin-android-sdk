@@ -17,7 +17,7 @@ public class PopupMenu_OnDismissListenerImplementor
 	}
 
 
-	public PopupMenu_OnDismissListenerImplementor () throws java.lang.Throwable
+	public PopupMenu_OnDismissListenerImplementor ()
 	{
 		super ();
 		if (getClass () == PopupMenu_OnDismissListenerImplementor.class)

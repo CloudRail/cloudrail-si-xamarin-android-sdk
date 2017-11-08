@@ -30,8 +30,6 @@ namespace UnifiedCloudStorage
     {
         private ICloudStorage service = null;
 
-        private IProfile p = null;
-
         IList<CloudMetaData> filesFolders = null;
 
         private List<String> options = new List<String>() { "Download", "Share Link", "Delete" };
@@ -51,7 +49,7 @@ namespace UnifiedCloudStorage
 
             if (servicePosition == 1) 
             {
-                GoogleDrive googleDrive = new GoogleDrive(this, "894628180134-b43ah8j51q4tdn6fbc67g14sqjnt81kr.apps.googleusercontent.com", "", "com.cloudrail.unifiedcloudstorage:/oauth2redirect", "state");
+                GoogleDrive googleDrive = new GoogleDrive(this, "[Client Id]", "", "com.cloudrail.unifiedcloudstorage:/oauth2redirect", "state");
                 googleDrive.UseAdvancedAuthentication();
                 service = googleDrive;
             } 
@@ -61,7 +59,7 @@ namespace UnifiedCloudStorage
             }
 			else if (servicePosition == 3)
 			{
-                service = new OneDrive(this, "[Client Id]", "[Client Secret]");
+                service = new OneDrive(this, "[Application Id]", "[Application Secret]");
 			}
 			else if (servicePosition == 4)
 			{
@@ -69,7 +67,7 @@ namespace UnifiedCloudStorage
             }
             else
             {
-               service = new Dropbox(this, "c97qvw00nstddt2", "gjn0b26eneidgcz", "https://www.cloudrailauth/auth", "state");
+                service = new Dropbox(this, "[Client Id]", "[Client Secret]", "https://www.cloudrailauth/auth", "state");
             }
 
 
@@ -78,7 +76,11 @@ namespace UnifiedCloudStorage
             //If Service exist in Shared Prefence load, it. 
             LoadService();
 
+            //Login Method Optional
+            //LoginMethod();
+
             //Get Files / Folder at Path. "/" = root path
+
             GetChildrenAtPath("/");
 		}
 
@@ -191,6 +193,28 @@ namespace UnifiedCloudStorage
 				editor.PutString(serviceValue, service.SaveAsString());
 				editor.Apply();
 			}
+        }
+
+        //Login (Get User Name / User Email)
+        private void LoginMethod()
+        {
+            new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+            {
+                try
+                {
+                    service.Login();
+                    Console.WriteLine(service.UserName);
+                    Console.WriteLine(service.UserLogin);
+                    //Save Service
+                    SaveService();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+            })).Start();
+
         }
 
 		//Get files/folder at Path - GetChildren(path) method used

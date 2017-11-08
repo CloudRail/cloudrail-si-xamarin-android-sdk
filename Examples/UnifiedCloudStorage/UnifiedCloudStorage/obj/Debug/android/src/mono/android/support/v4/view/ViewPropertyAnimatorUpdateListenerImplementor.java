@@ -17,7 +17,7 @@ public class ViewPropertyAnimatorUpdateListenerImplementor
 	}
 
 
-	public ViewPropertyAnimatorUpdateListenerImplementor () throws java.lang.Throwable
+	public ViewPropertyAnimatorUpdateListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ViewPropertyAnimatorUpdateListenerImplementor.class)

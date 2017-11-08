@@ -17,7 +17,7 @@ public class ViewStubCompat_OnInflateListenerImplementor
 	}
 
 
-	public ViewStubCompat_OnInflateListenerImplementor () throws java.lang.Throwable
+	public ViewStubCompat_OnInflateListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ViewStubCompat_OnInflateListenerImplementor.class)

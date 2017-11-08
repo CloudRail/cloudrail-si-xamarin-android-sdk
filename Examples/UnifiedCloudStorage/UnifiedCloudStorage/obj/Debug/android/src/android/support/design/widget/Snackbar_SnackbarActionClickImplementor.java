@@ -17,7 +17,7 @@ public class Snackbar_SnackbarActionClickImplementor
 	}
 
 
-	public Snackbar_SnackbarActionClickImplementor () throws java.lang.Throwable
+	public Snackbar_SnackbarActionClickImplementor ()
 	{
 		super ();
 		if (getClass () == Snackbar_SnackbarActionClickImplementor.class)

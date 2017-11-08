@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cloudrail.si"
     android:versionCode="1"
-    android:versionName="2.20.0" >
+    android:versionName="2.21.1" >
 
     <uses-sdk
         android:minSdkVersion="10"

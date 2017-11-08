@@ -17,7 +17,7 @@ public class AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
 	}
 
 
-	public AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor () throws java.lang.Throwable
+	public AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor ()
 	{
 		super ();
 		if (getClass () == AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.class)

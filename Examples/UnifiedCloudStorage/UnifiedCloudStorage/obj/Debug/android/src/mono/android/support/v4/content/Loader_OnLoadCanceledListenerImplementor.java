@@ -17,7 +17,7 @@ public class Loader_OnLoadCanceledListenerImplementor
 	}
 
 
-	public Loader_OnLoadCanceledListenerImplementor () throws java.lang.Throwable
+	public Loader_OnLoadCanceledListenerImplementor ()
 	{
 		super ();
 		if (getClass () == Loader_OnLoadCanceledListenerImplementor.class)

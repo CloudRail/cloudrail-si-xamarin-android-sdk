@@ -19,7 +19,7 @@ public class TabLayout_OnTabSelectedListenerImplementor
 	}
 
 
-	public TabLayout_OnTabSelectedListenerImplementor () throws java.lang.Throwable
+	public TabLayout_OnTabSelectedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == TabLayout_OnTabSelectedListenerImplementor.class)

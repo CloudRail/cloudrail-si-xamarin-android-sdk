@@ -17,7 +17,7 @@ public class ActionProvider_VisibilityListenerImplementor
 	}
 
 
-	public ActionProvider_VisibilityListenerImplementor () throws java.lang.Throwable
+	public ActionProvider_VisibilityListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ActionProvider_VisibilityListenerImplementor.class)

@@ -17,7 +17,7 @@ public class FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor
 	}
 
 
-	public FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor () throws java.lang.Throwable
+	public FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor ()
 	{
 		super ();
 		if (getClass () == FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.class)

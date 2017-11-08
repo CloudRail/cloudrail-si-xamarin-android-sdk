@@ -17,14 +17,14 @@ public class Toolbar_NavigationOnClickEventDispatcher
 	}
 
 
-	public Toolbar_NavigationOnClickEventDispatcher () throws java.lang.Throwable
+	public Toolbar_NavigationOnClickEventDispatcher ()
 	{
 		super ();
 		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class)
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public Toolbar_NavigationOnClickEventDispatcher (android.support.v7.widget.Toolbar p0) throws java.lang.Throwable
+	public Toolbar_NavigationOnClickEventDispatcher (android.support.v7.widget.Toolbar p0)
 	{
 		super ();
 		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class)

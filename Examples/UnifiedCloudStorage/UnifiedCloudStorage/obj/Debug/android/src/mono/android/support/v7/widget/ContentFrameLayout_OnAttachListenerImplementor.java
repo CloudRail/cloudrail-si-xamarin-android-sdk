@@ -18,7 +18,7 @@ public class ContentFrameLayout_OnAttachListenerImplementor
 	}
 
 
-	public ContentFrameLayout_OnAttachListenerImplementor () throws java.lang.Throwable
+	public ContentFrameLayout_OnAttachListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ContentFrameLayout_OnAttachListenerImplementor.class)

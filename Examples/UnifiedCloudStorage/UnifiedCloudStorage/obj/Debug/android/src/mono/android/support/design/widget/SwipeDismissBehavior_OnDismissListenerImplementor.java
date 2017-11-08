@@ -18,7 +18,7 @@ public class SwipeDismissBehavior_OnDismissListenerImplementor
 	}
 
 
-	public SwipeDismissBehavior_OnDismissListenerImplementor () throws java.lang.Throwable
+	public SwipeDismissBehavior_OnDismissListenerImplementor ()
 	{
 		super ();
 		if (getClass () == SwipeDismissBehavior_OnDismissListenerImplementor.class)

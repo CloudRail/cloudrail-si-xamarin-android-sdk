@@ -19,7 +19,7 @@ public class AlertListViewAdapter
 	}
 
 
-	public AlertListViewAdapter () throws java.lang.Throwable
+	public AlertListViewAdapter ()
 	{
 		super ();
 		if (getClass () == AlertListViewAdapter.class)

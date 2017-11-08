@@ -17,7 +17,7 @@ public class AppBarLayout_OnOffsetChangedListenerImplementor
 	}
 
 
-	public AppBarLayout_OnOffsetChangedListenerImplementor () throws java.lang.Throwable
+	public AppBarLayout_OnOffsetChangedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == AppBarLayout_OnOffsetChangedListenerImplementor.class)

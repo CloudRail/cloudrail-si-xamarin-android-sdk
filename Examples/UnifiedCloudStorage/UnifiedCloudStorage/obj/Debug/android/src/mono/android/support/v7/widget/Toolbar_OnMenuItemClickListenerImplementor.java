@@ -17,7 +17,7 @@ public class Toolbar_OnMenuItemClickListenerImplementor
 	}
 
 
-	public Toolbar_OnMenuItemClickListenerImplementor () throws java.lang.Throwable
+	public Toolbar_OnMenuItemClickListenerImplementor ()
 	{
 		super ();
 		if (getClass () == Toolbar_OnMenuItemClickListenerImplementor.class)

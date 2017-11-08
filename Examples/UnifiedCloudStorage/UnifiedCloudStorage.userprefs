@@ -1,22 +1,13 @@
 ﻿<Properties StartupConfiguration="{80B24F73-954B-488D-A192-E23DD064CC3A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedCloudStorage/CloudMetadataAdapter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedCloudStorage/MainActivity.cs">
     <Files>
-      <File FileName="UnifiedCloudStorage/CloudMetadataAdapter.cs" Line="40" Column="27" />
+      <File FileName="UnifiedCloudStorage/CloudMetadataAdapter.cs" Line="56" Column="4" />
+      <File FileName="UnifiedCloudStorage/AlertListViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="UnifiedCloudStorage/ListFolderActivity.cs" Line="63" Column="5" />
+      <File FileName="UnifiedCloudStorage/MainActivity.cs" Line="20" Column="63" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="UnifiedCloudStorage" expanded="True">
-            <Node name="UnifiedCloudStorage" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="CloudMetadataAdapter.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UnifiedCloudStorage AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="MyTheme" />
+  <MonoDevelop.Ide.ItemProperties.UnifiedCloudStorage AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.4_WVGA_Nexus_S_API_26" AndroidDesignerPreferredTheme="MyTheme" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

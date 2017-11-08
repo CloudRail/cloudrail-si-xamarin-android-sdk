@@ -17,7 +17,7 @@ public class CancellationSignal_OnCancelListenerImplementor
 	}
 
 
-	public CancellationSignal_OnCancelListenerImplementor () throws java.lang.Throwable
+	public CancellationSignal_OnCancelListenerImplementor ()
 	{
 		super ();
 		if (getClass () == CancellationSignal_OnCancelListenerImplementor.class)

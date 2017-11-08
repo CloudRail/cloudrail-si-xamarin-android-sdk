@@ -17,7 +17,7 @@ public class RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor
 	}
 
 
-	public RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor () throws java.lang.Throwable
+	public RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.class)

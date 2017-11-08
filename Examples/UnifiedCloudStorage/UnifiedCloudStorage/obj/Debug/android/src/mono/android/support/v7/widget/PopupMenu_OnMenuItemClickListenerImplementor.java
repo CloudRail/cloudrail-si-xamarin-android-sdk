@@ -17,7 +17,7 @@ public class PopupMenu_OnMenuItemClickListenerImplementor
 	}
 
 
-	public PopupMenu_OnMenuItemClickListenerImplementor () throws java.lang.Throwable
+	public PopupMenu_OnMenuItemClickListenerImplementor ()
 	{
 		super ();
 		if (getClass () == PopupMenu_OnMenuItemClickListenerImplementor.class)

@@ -19,7 +19,7 @@ public class RecyclerView_OnItemTouchListenerImplementor
 	}
 
 
-	public RecyclerView_OnItemTouchListenerImplementor () throws java.lang.Throwable
+	public RecyclerView_OnItemTouchListenerImplementor ()
 	{
 		super ();
 		if (getClass () == RecyclerView_OnItemTouchListenerImplementor.class)

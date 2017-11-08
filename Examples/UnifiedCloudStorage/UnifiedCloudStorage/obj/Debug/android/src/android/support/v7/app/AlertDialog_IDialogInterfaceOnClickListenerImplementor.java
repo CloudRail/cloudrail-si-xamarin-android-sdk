@@ -17,7 +17,7 @@ public class AlertDialog_IDialogInterfaceOnClickListenerImplementor
 	}
 
 
-	public AlertDialog_IDialogInterfaceOnClickListenerImplementor () throws java.lang.Throwable
+	public AlertDialog_IDialogInterfaceOnClickListenerImplementor ()
 	{
 		super ();
 		if (getClass () == AlertDialog_IDialogInterfaceOnClickListenerImplementor.class)

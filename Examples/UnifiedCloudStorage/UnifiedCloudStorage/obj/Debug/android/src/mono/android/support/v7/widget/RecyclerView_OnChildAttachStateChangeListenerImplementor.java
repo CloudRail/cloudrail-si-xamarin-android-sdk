@@ -18,7 +18,7 @@ public class RecyclerView_OnChildAttachStateChangeListenerImplementor
 	}
 
 
-	public RecyclerView_OnChildAttachStateChangeListenerImplementor () throws java.lang.Throwable
+	public RecyclerView_OnChildAttachStateChangeListenerImplementor ()
 	{
 		super ();
 		if (getClass () == RecyclerView_OnChildAttachStateChangeListenerImplementor.class)

@@ -19,7 +19,7 @@ public class CloudMetadataAdapter
 	}
 
 
-	public CloudMetadataAdapter () throws java.lang.Throwable
+	public CloudMetadataAdapter ()
 	{
 		super ();
 		if (getClass () == CloudMetadataAdapter.class)
