@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.3](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.3) (2017-10-29)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.2...1.2.3)
+
+* Amazon S3 fix
+
 ## [1.2.2](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.2) (2017-10-17)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.1...1.2.2)
 
