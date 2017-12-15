@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.4](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.4) (2017-11-15)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.3...1.2.4)
+
+* Bug fixes for GMail and Telegram
+* Add SlackBot as a new service for the messaging interface
+
 ## [1.2.3](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.3) (2017-10-29)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.2...1.2.3)
 
