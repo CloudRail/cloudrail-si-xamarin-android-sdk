@@ -48,7 +48,7 @@ CloudRail.AppKey = "{Your_License_Key}";
 ## Current Interfaces
 Interface | Included Services
 --- | ---
-Cloud Storage | Dropbox, Google Drive, OneDrive, Box, Egnyte, OneDrive Business
+Cloud Storage | Dropbox, Google Drive, OneDrive, Box, pCloud, Egnyte, OneDrive Business
 Business Cloud Storage | AmazonS3, Microsoft Azure, Rackspace, Backblaze, Google Cloud Platform
 Social Profiles | Facebook, GitHub, Google+, LinkedIn, Slack, Twitter, Windows Live, Yahoo, Instagram, Heroku
 Social Interaction | Facebook, FacebookPage, Twitter
@@ -65,6 +65,7 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 * Box
 * Google Drive
 * Microsoft OneDrive
+* pCloud
 * Egnyte
 * OneDrive Business
 
@@ -90,6 +91,7 @@ CloudRail.AppKey = "{Your_License_Key};
 
 // ICloudStorage cs = new Box(this, "[clientIdentifier]", "[clientSecret]");
 // ICloudStorage cs = new OneDrive(this, "[clientIdentifier]", "[clientSecret]");
+// ICloudStorage cs = new PCloud(this, "[clientIdentifier]", "[clientSecret]");
 
 // Google Drive:
 // GoogleDrive drive = new GoogleDrive(this, "[clientIdentifier]", "", "[redirectUri]", "[state]");
