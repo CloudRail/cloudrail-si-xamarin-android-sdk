@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.2.6](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.6) (2018-02-12)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.5...1.2.6)
+
+* Add a new method to the CloudStorage interface that allows uploading files with a custom modified date
+* Fix a missing Authorization header in getChildren and getChildrenPage of OneDrive
+* Fix error handling in Dropbox
+* Fix an issue with upload in PCloud
+
 ## [1.2.5](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.5) (2018-01-23)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.4...1.2.5)
 

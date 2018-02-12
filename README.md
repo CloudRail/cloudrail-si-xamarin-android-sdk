@@ -73,6 +73,7 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 
 * Download files from Cloud Storage.
 * Upload files to Cloud Storage.
+* Upload files with modified date to Cloud Storage.
 * Get Meta Data of files, folders and perform all standard operations (copy, move, etc) with them.
 * Retrieve user and quota information.
 * Generate share links for files and folders.
