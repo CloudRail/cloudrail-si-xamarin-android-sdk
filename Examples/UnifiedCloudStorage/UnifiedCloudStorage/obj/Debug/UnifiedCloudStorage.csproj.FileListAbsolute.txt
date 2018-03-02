@@ -181,3 +181,6 @@
 /Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/res/drawable-xxxhdpi/ic_file_doc.png
 /Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/R.cs.flag
 /Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/uploadflags.txt
+bin/Debug/Mono.Android.pdb
+obj/Debug/linksrc/UnifiedCloudStorage.pdb
+obj/Debug/linksrc/Mono.Android.pdb

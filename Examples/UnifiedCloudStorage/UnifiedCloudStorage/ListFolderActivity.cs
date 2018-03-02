@@ -67,7 +67,9 @@ namespace UnifiedCloudStorage
             }
             else
             {
-                service = new Dropbox(this, "[Client Id]", "[Client Secret]", "https://www.cloudrailauth/auth", "state");
+                Dropbox dropbox = new Dropbox(this, "zsoojeklqxn3zrc", "b8jjaf2d62kbdnf", "https://auth.cloudrail.com/com.cloudrail.unifiedcloudstorage", "state");
+                dropbox.UseAdvancedAuthentication();
+                service = dropbox;
             }
 
 

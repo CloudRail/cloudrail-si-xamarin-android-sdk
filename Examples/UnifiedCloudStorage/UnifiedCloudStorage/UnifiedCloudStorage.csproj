@@ -61,8 +61,9 @@
       <HintPath>..\packages\Xamarin.Android.Support.Design.23.4.0\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
     <Reference Include="cloudrail-si-xamarin-android-sdk">
-      <HintPath>..\..\..\cloudrail-si-xamarin-android-sdk.dll</HintPath>
+      <HintPath>..\packages\Xamarin.CloudRail.Android.1.2.6\lib\MonoAndroid42\cloudrail-si-xamarin-android-sdk.dll</HintPath>
     </Reference>
+    <Reference Include="Java.Interop" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

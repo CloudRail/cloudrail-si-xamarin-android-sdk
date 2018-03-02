@@ -17,7 +17,7 @@ namespace UnifiedCloudStorage
     [Activity(Label = "UnifiedCloudStorage", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : ListActivity
     {
-        public string CLOUDRAIL_APP_KEY = "[Your CloudRail Key]";
+        public string CLOUDRAIL_APP_KEY = "5a213870f19b3c0ca0f5806f";
         string[] items;
 
         protected override void OnCreate(Bundle savedInstanceState)

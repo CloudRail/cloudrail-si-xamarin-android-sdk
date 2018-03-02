@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk/library_project_imports/bin/classes.jar</Jars>
+  <Jars>
+    <Jar>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/lp/0/jl/bin/classes.jar</Jar>
+  </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/lp/0/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/0/jl/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/__library_projects__/cloudrail-si-xamarin-android-sdk.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Volumes/Untitled/Projects/cloudrail-si-xamarin-android-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/Debug/lp/0.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
