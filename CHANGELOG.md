@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.7](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.7) (2018-03-28)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.6...1.2.7)
+
+* Minor fix in AmazonS3, GoogleCloudPlatform, FacebookMessenger
+* Fix in uploadFileWithContentModified for all CloudStorage Interfaces.
+* Updated Yelp to use API v3.
+
 ## [1.2.6](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.6) (2018-02-12)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.5...1.2.6)
 
