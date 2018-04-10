@@ -57,7 +57,7 @@ Email | Maljet, Sendgrid, Gmail
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
 Video | YouTube, Twitch, Vimeo
-Messaging | Facebook Messenger, Telegram, Line, Viber
+Messaging | Facebook Messenger, Telegram, Line, Viber, SlackBot
 ---
 ### Cloud Storage Interface:
 
@@ -131,6 +131,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 * Upload files
 * Download files
 * List files in a bucket and delete files
+* List files in a with prefix
 * Get file metadata (last modified, size, etc.)
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/BusinessCloudStorage;platformId=XamarinAndroid)
@@ -506,6 +507,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 * Telegram
 * Line
 * Viber
+* SlackBot
 
 #### Features
 
@@ -531,6 +533,7 @@ IMessaging service;
 // service = new Viber(this, "[Bot Token]", "[Webhook URL]", "[Bot Name]");
 // service = new Telegram(this, "[Bot Token]", "[Webhook URL]");
 // service = new Line(this, "[Bot Token]");
+// service = new SlackBot(this, "[Bot Token]");
 
 service = = new FacebookMessenger(this, "[Bot Token]");
 
