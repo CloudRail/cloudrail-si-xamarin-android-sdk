@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.10](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.10) (2018-05-22)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.9...1.2.10)
+
+* OneDriveBusiness: Fix missing url encoding of the client secret on refreshing tokens
+* GoogleCloudPlatform: Add a missing internal function
+* MicrosoftAzure: Fix an issue in the advanced request function
+
 ## [1.2.9](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.9) (2018-04-23)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.8...1.2.9)
 
