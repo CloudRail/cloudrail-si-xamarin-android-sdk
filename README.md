@@ -42,7 +42,7 @@ using Com.Cloudrail.SI;
 
 CloudRail.AppKey = "{Your_License_Key}";
 ```
-[Get a free license key here](https://cloudrail.com/signup)
+[Get your license key here](https://cloudrail.com/signup)
 
 
 ## Current Interfaces
@@ -580,7 +580,7 @@ If you don't know how to start or just want to have a look at how to use our SDK
 
 CloudRail provides a developer portal which offers usage insights for the SDKs and allows you to generate license keys.
 
-It's free to sign up and generate a key.
+It's easy to sign up and generate a key.
 
 Head over to https://cloudrail.com/signup
 
