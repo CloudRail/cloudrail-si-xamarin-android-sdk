@@ -88,7 +88,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 // ICloudStorage cs = new Box(this, "[clientIdentifier]", "[clientSecret]");
 // ICloudStorage cs = new OneDrive(this, "[clientIdentifier]", "[clientSecret]");
@@ -143,7 +143,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // IBusinessCloudStorage cs = new MicrosoftAzure(this, "[accountName]", "[accessKey]");
@@ -201,7 +201,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // Google Plus:
@@ -254,7 +254,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // ISocial social = new Twitter(this, "[clientID]", "[clientSecret]");
@@ -298,7 +298,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // IPayment payment = new Stripe(this, "[secretKey]");
@@ -340,7 +340,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // IEmail email = new MailJet(this, "[clientIdentifier]", "[clientSecret]");
@@ -390,7 +390,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // ISMS sms = new Nexmo(this, "[clientIdentifier]", "[clientSecret]");
@@ -431,7 +431,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // IPointsOfInterest poi = new Foursquare(this, "[clientID]", "[clientSecret]");
@@ -477,7 +477,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 
 // IVideo video = new Twitch(this, "[clientID]", "[clientSecret]");
@@ -526,7 +526,7 @@ using Com.Cloudrail.SI.Exceptions;
 using Com.Cloudrail.SI.Services;
 using Com.Cloudrail.SI.Types;
 
-CloudRail.AppKey = "{Your_License_Key};
+CloudRail.AppKey = "{Your_License_Key}";
 
 IMessaging service;
 
