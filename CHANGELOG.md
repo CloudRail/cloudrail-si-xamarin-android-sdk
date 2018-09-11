@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.12](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.12) (2018-09-11)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.11...1.2.12)
+
+* GoogleDrive: Fix Authentication issue
+
 ## [1.2.11](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.11) (2018-08-30)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/compare/1.2.10...1.2.11)
 
